@@ -154,7 +154,8 @@ suites:
       state_top:
         base:
           '*':
-            - influxdb
+            - influxdb.config
+            - influxdb.cli
       pillars:
         top.sls:
           base:
